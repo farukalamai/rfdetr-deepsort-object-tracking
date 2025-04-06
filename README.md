@@ -1,23 +1,18 @@
 <H1 align="center">
 RF-DETR Object Detection with DeepSORT Tracking </H1>
 
+This project integrates RF-DETR (SOTA Real-Time Object Detection Model) with DeepSORT to achieve robust real-time object tracking.
 ## Steps to run Code
-
-- Clone the repository
 ```
 git clone https://github.com/farukalamai/rfdetr-deepsort-object-tracking.git
 ```
 ```
 cd rfdetr-deepsort-object-tracking
 ```
-- Install the dependecies
 ```
 pip install -r requirements.txt
-
 ```
-- Run the code with mentioned command below.
-
-- For yolov8 object detection + Tracking
+- Specify the path of your video file in **video_process.py** and run.
 ```
-python predict.py model=yolov8l.pt source="test3.mp4" show=True
+python video_process.py
 ```
