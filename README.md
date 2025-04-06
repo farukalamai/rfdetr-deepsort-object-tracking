@@ -16,3 +16,5 @@ pip install -r requirements.txt
 ```
 python video_process.py
 ```
+
+##### original deepsort code: https://github.com/nwojke/deep_sort
