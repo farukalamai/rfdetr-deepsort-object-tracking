@@ -12,7 +12,7 @@ cd rfdetr-deepsort-object-tracking
 ```
 pip install -r requirements.txt
 ```
-- Specify the path of your video file in **video_process.py** and run.
+- Specify the path of your video file in **video_process.py** and run the file.
 ```
 python video_process.py
 ```
